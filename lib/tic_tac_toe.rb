@@ -93,5 +93,12 @@ def winner
 end
 
 
+def play 
+  turn
+  
+  
+end
+
+
 
 end
