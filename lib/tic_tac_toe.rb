@@ -29,9 +29,21 @@ def input_to_index(string)
     end
     
     def valid_move?
+      
     end
     
     def turn_count
-      counter = 0
+      counter = 0 
+      @board.each do |i|
+        if i == "X" || i == "O"
+          counter += 1
+        end
     end
+    counter
+end
+def current_player
+  turn_count.even? "X" : "O"
+end
+
+
 end
