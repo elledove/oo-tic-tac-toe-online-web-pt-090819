@@ -13,7 +13,7 @@ class TicTacToe
   print  "-----------"
   print " #{@board[3]} | #{@board[4]} | #{@board[5]} "
   print "-----------"
-  print " #{@baord[6]} | #{@baord[7]} | #{@baord[8]} "
+  print " #{@board[6]} | #{@board[7]} | #{@board[8]} "
   #print "-----------"
  end
 
