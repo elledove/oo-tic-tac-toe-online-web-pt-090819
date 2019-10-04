@@ -20,6 +20,7 @@ def input_to_index(string)
   string.to_i do|token|
   
   if token = "#{@board[0]}"
+    puts "1"
   end
 end
   end
