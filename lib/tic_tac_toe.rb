@@ -17,11 +17,8 @@ class TicTacToe
   end
   
 def input_to_index(string)
-  string.to_i do|token|
-  
-  if token = "#{@board[0]}"
-    puts "1"
-  end
-end
+  string.to_i do|token| {token = "#{@board[0]}"}
+    
+
   end
 end
