@@ -52,7 +52,7 @@ def turn
   if valid_move?(index)
     move(index, current_player)
   end
-end
+#end
 
 
 
