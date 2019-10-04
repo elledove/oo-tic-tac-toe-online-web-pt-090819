@@ -69,6 +69,8 @@ def won?
       winner = combo
       elsif combo.all? {|win|@board[win] == "O"}
       winner = combo
+    else
+      winner
   end
 end
   
