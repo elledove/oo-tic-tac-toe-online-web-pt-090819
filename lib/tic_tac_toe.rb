@@ -40,8 +40,10 @@ def input_to_index(string)
           counter += 1
         end
     end
-    #counter
+    counter
 end
+
+
 def current_player
   turn_count.even? "X" : "O"
 end
@@ -51,6 +53,9 @@ def turn
   index = input_to_index(gets.chomp)
   if valid_move?(index)
     move(index, current_player)
+    display_board
+  else
+    turn
   end
 end
 
