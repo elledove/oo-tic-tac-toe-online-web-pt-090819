@@ -89,7 +89,7 @@ def over?
 end
 
 def winner
-  @board[won?[0]]
+  won? ? @board[won?[0]] : nil
 end
 
 
