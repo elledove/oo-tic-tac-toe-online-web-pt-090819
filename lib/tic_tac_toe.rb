@@ -63,6 +63,8 @@ end
 
 
 def won?
+  winner = nil 
+  
   
 end
 
