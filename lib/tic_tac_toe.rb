@@ -17,7 +17,8 @@ class TicTacToe
   end
   
 def input_to_index(string)
-  string.to_i {|token|token.each_with_index  }
+  string.to_i.each_with_index do |token|
+    token
     
 
   end
