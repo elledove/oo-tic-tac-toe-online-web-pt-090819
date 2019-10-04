@@ -62,7 +62,9 @@ end
 
 
 
-
+def won?
+  
+end
 
 
 
