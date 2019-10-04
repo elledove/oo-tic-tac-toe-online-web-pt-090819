@@ -32,5 +32,6 @@ def input_to_index(string)
     end
     
     def turn_count
+      counter = 0
     end
 end
