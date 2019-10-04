@@ -43,8 +43,7 @@ def input_to_index(string)
     counter
     end
   
-    #counter
-#end
+
 
 
 def current_player
