@@ -45,5 +45,10 @@ def current_player
   turn_count.even? "X" : "O"
 end
 
+def turn
+  puts "Choose a number between 1-9"
+end
+
+
 
 end
