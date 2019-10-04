@@ -71,9 +71,9 @@ def won?
       winner = combo
     else
       winner
+    end
   end
-end
-  
+  winner
 end
 
 
