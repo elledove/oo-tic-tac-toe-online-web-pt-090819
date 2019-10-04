@@ -7,6 +7,6 @@ class TicTacToe
     end
     
     def display_board
-      print @board[1..2]
+      print @board[0..2]
     end
 end
