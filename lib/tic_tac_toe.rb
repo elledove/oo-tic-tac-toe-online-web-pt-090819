@@ -39,8 +39,9 @@ def input_to_index(string)
         if i == "X" || i == "O"
           counter += 1
         end
+        countet
     end
-    counter
+    #counter
 end
 def current_player
   turn_count.even? "X" : "O"
@@ -52,7 +53,7 @@ def turn
   if valid_move?(index)
     move(index, current_player)
   end
-#end
+end
 
 
 
