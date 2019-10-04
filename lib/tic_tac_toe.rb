@@ -11,6 +11,7 @@ class TicTacToe
       
    print" #{@board[0]} | #{@board[1]} | #{@board[2]} "
   print  "-----------"
+  print "#{@board[]} | #{} | #{} "
  end
 
 end
