@@ -44,7 +44,7 @@ def input_to_index(string)
     end
   
     #counter
-end
+#end
 
 
 def current_player
