@@ -25,7 +25,7 @@ def input_to_index(string)
     end
     
     def position_taken?(index)
-      @board[index]
-      
+      @board[index] != " "
+     
     end
 end
