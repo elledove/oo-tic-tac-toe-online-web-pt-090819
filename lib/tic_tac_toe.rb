@@ -23,4 +23,8 @@ def input_to_index(string)
     def move(index, token ="X")
       @board[index] = token
     end
+    
+    def position_taken?
+      
+    end
 end
