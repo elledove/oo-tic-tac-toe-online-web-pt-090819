@@ -24,7 +24,8 @@ def input_to_index(string)
       @board[index] = token
     end
     
-    def position_taken?
+    def position_taken?(index)
+      @board[index]
       
     end
 end
