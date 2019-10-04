@@ -97,6 +97,7 @@ def play
   turn until over?
   if winner 
     puts 
+  end
   
   
 end
