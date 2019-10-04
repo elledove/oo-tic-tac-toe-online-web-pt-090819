@@ -17,7 +17,7 @@ class TicTacToe
   end
   
 def input_to_index(string)
-  string.to_i do|token| {token.all = "#{@board[0]}"}
+  string.to_i {|token|token.each_with_index = 
     
 
   end
