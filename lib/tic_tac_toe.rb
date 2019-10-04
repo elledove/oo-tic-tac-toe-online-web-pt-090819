@@ -7,6 +7,5 @@ class TicTacToe
     end
     
     def display_board
-     @board[0..2].split
-    end
+     @board[0..2]
 end
