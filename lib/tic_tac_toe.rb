@@ -26,6 +26,10 @@ def input_to_index(string)
     
     def position_taken?(index)
       @board[index] != " "
-     
     end
+    
+    def valid_move?
+    end
+    
+    
 end
