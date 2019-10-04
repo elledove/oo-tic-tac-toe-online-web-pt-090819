@@ -17,6 +17,6 @@ class TicTacToe
   end
   
 def input_to_index(string)
-  string.to_i {|token| token = @board[1]}
+  string.to_i {|token| token = @board.at(0)}
   end
 end
