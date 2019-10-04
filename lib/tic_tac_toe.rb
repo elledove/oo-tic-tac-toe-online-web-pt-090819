@@ -31,5 +31,6 @@ def input_to_index(string)
     def valid_move?
     end
     
-    
+    def turn_count
+    end
 end
