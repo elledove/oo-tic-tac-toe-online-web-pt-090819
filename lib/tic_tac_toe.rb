@@ -76,7 +76,8 @@ def won?
   winner
 end
 
-
+def full?
+end
 
 
 
