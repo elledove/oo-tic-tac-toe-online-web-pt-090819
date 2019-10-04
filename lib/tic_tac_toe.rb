@@ -46,7 +46,7 @@ def input_to_index(string)
 
 
 def current_player
-  turn_count.even? "X":"O"
+  turn_count.even? "X": "O"
 end
 
 def turn
